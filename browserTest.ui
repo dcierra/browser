@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1068</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(245, 244, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QToolButton" name="tBtn_back">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: rgb(158, 158, 158);
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	background-color: rgb(255, 82, 105);
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/icon/icon/back.png</normaloff>:/icon/icon/back.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QToolButton" name="tBtn_reload">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: rgb(158, 158, 158);
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	background-color: rgb(255, 82, 105);
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/icon/icon/reload.png</normaloff>:/icon/icon/reload.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QToolButton" name="tBtn_home">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: rgb(158, 158, 158);
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	background-color: rgb(255, 82, 105);
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/icon/icon/home.png</normaloff>:/icon/icon/home.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="lE_searchLine">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+	border-radius: 15px;
+	border: 1px solid black;
+}
+QLineEdit:hover {
+	border: 2px solid black;
+	background-color:  rgb(229, 229, 229);
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>https://</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QToolButton" name="tBtn_search">
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>60</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: rgb(158, 158, 158);
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	background-color: rgb(255, 82, 105);
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/icon/icon/find.png</normaloff>:/icon/icon/find.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QToolButton" name="tBtn_changeTheme">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: rgb(158, 158, 158);
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	background-color: rgb(255, 82, 105);
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/icon/icon/change_themes.png</normaloff>:/icon/icon/change_themes.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QToolButton" name="tBtn_minimaze">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+	background-color: rgb(213, 63, 91);
+	color: white;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: red;
+	color: white;
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	color: white;
+	background-color: rgb(184, 21, 32);
+}</string>
+      </property>
+      <property name="text">
+       <string>_</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QToolButton" name="tBtn_openCloseFullWindow">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+	background-color: rgb(213, 63, 91);
+	color: white;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: red;
+	color: white;
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	color: white;
+	background-color: rgb(184, 21, 32);
+}</string>
+      </property>
+      <property name="text">
+       <string>□</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8">
+     <widget class="QToolButton" name="tBtn_closeWindow">
+      <property name="minimumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	border-radius: 15px;
+	border: 2px solid black;
+	background-color: rgb(213, 63, 91);
+	color: white;
+}
+QToolButton:hover {
+	border: 2px solid black;
+	background-color: red;
+	color: white;
+}
+QToolButton:pressed {
+	border: 2px solid black;
+	color: white;
+	background-color: rgb(184, 21, 32);
+}</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="9">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

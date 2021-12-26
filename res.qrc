@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/back.png</file>
+    <file>icon/find.png</file>
+    <file>icon/home.png</file>
+    <file>icon/reload.png</file>
+    <file>icon/change_themes.png</file>
+  </qresource>
+</RCC>
